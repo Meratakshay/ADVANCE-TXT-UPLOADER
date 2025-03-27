@@ -9,7 +9,7 @@
     ],
     "repository": "https://github.com/Tushar557845/ADVANCE-TXT-UPLOADER",
     "success_url": "https://github.com/Tushar557845/ADVANCE-TXT-UPLOADER",
-    "stack": "heroku-24",
+    
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
@@ -28,16 +28,20 @@
             "required": true
         }
     },
-    "addons": [],
+    
     "buildpacks": [
         {
             "url": "heroku/python"
         },
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        },
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+        
         },
     ]
 }
+"koyeb": {
+    "regions": ["eur"],
+    "docker": {
+        "command": "python3 -m bot"
+    }
+},
