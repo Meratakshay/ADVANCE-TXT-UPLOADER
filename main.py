@@ -588,7 +588,7 @@ async def upload(bot: Client, m: Message):
                 cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
 
             
-         elif '/master.mpd' in url:
+         elif '/master.mpd' in url:,
              id =  url.split("/")[-2]
              url = f"https://player.muftukmall.site/?id={id}"
          elif '/master.mpd' in url:
