@@ -17,8 +17,6 @@ import random
 import ffmpeg
 import logging 
 import yt_dlp
-import discord
-from dotenv import load_dotenv
 from aiohttp import web
 from core import *
 from urllib.parse import urlparse, parse_qs
