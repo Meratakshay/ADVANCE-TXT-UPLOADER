@@ -596,13 +596,13 @@ async def upload(bot: Client, m: Message):
                 url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
                 url = f"https://madxapi-d0cbf6ac738c.herokuapp.com/{id}/master.m3u8?token={raw_text4}"
     
-           elif '/master.mpd' in url:
-               id =  url.split("/")[-2]
-               url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
+            elif '/master.mpd' in url:
+                id =  url.split("/")[-2]
+                url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
             
         
-        name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
-        name = f'{str(count).zfill(3)}) {name1[:60]}'
+            name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
+            name = f'{str(count).zfill(3)}) {name1[:60]}'
 
             if 'cpvod.testbook' in url:
                 CPVOD = url.split("/")[-2]
