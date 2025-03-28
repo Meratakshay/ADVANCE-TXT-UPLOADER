@@ -39,9 +39,9 @@
         },
     ]
 }
-# "koyeb": {
-  #  "regions": ["eur"],
-   # "docker": {
-    #    "command": "python3 -m bot"
-   # }
-# },
+    "koyeb": {
+        "regions": ["eur"],
+        "docker": {
+        "command": "python3 -m bot"
+    }
+ },
