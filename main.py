@@ -810,8 +810,8 @@ async def upload(bot: Client, m: Message):
 
     async def main():
         token = os.environ.get("BOT_TOKEN","")
-        if nt token:
-        raise ValueError("BOT_TOKEN environment variable not set")
+        if not token:
+            raise ValueError("BOT_TOKEN environment variable not set")
         await bot.start(token)
 
     if __name__ == "__main__":
