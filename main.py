@@ -530,7 +530,7 @@ async def upload(bot: Client, m: Message):
     raw_text4 = input4.text
     await input4.delete(True)
     if raw_text4 == 'noo':
-        MR = token
+        
     else:
         MR = raw_text4
     
