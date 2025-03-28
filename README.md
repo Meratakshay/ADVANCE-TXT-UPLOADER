@@ -6,7 +6,7 @@
 
 ## Credit
 
-🥳 Credit Goes To [akshay)
+🥳 Credit Goes To [Tushar)
 
   
 ## 🔥 Commands
